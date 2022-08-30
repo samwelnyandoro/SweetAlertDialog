@@ -1,5 +1,22 @@
 SweetAlertDialog
 ===================
+
+<p align="center">
+  </a>
+    <a href="https://twitter.com/intent/tweet?text=Add%20dynamically%20generated%20GitHub%20Trophy%20on%20your%20readme%0D%0A&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy">
+    <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy"/> 
+  </a>
+</p>
+<p align="center">
+  You can use this service for free. I'm looking for sponsors to help us keep up with this service❤️
+</p>
+<p align="center">
+  <a href="https://github.com/sponsors/ryo-ma">
+    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4"/> 
+  </a>
+</p>
+
+
 SweetAlert for Android, a beautiful and clever alert dialog
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sweet%20Alert%20Dialog-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1065)
