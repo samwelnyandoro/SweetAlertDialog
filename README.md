@@ -7,14 +7,14 @@ SweetAlertDialog
     <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fryo-ma%2Fgithub-profile-trophy"/> 
   </a>
 </p>
-<p align="center">
+<!--<p align="center">
   You can use this service for free. I'm looking for sponsors to help us keep up with this service❤️
 </p>
 <p align="center">
   <a href="https://github.com/sponsors/samwelnyandoro">
     <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=ff69b4"/> 
   </a>
-</p>
+</p>-->
 
 
 SweetAlert for Android, a beautiful and clever alert dialog
