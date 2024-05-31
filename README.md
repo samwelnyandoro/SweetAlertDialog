@@ -27,7 +27,6 @@ Inspired by JavaScript [SweetAlert](http://tristanedwards.me/sweetalert)
 
     repositories {
         mavenCentral()
-        jcenter()
         maven { url 'https://jitpack.io' }
     }
 
