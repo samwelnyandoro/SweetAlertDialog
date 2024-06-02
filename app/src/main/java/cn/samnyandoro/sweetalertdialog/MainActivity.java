@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
             pDialog.setCancelable(false);
             new CountDownTimer(800 * 7, 800) {
                 public void onTick(long millisUntilFinished) {
-                    // you can change the progress bar color by ProgressHelper every 800 millis
                     i++;
                     switch (i) {
                         case 0:
