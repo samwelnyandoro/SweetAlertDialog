@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        if (id == R.id.basic_test) {// default title "Here's a message!"
+        if (id == R.id.basic_test) {
             SweetAlertDialog sd = new SweetAlertDialog(this);
             sd.setCancelable(true);
             sd.setCanceledOnTouchOutside(true);
@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                     .setContentText("Won't be able to recover this file!")
                     .setConfirmText("Yes,delete it!")
                     .setConfirmClickListener(sDialog -> {
-                        // reuse previous dialog instance
                         sDialog.setTitleText("Deleted!")
                                 .setContentText("Your imaginary file has been deleted!")
                                 .setConfirmText("OK")
@@ -69,7 +68,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                     .setConfirmText("Yes,delete it!")
                     .showCancelButton(true)
                     .setCancelClickListener(sDialog -> {
-                        // reuse previous dialog instance, keep widget user state, reset them if you need
                         sDialog.setTitleText("Cancelled!")
                                 .setContentText("Your imaginary file is safe :)")
                                 .setConfirmText("OK")
@@ -77,14 +75,6 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
                                 .setCancelClickListener(null)
                                 .setConfirmClickListener(null)
                                 .changeAlertType(SweetAlertDialog.ERROR_TYPE);
-
-                        // or you can new a SweetAlertDialog to show
-                           /* sDialog.dismiss();
-                            new SweetAlertDialog(SampleActivity.this, SweetAlertDialog.ERROR_TYPE)
-                                    .setTitleText("Cancelled!")
-                                    .setContentText("Your imaginary file is safe :)")
-                                    .setConfirmText("OK")
-                                    .show();*/
                     })
                     .setConfirmClickListener(sDialog -> sDialog.setTitleText("Deleted!")
                             .setContentText("Your imaginary file has been deleted!")
